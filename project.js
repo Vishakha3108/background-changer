@@ -3,14 +3,7 @@ const color = document.querySelector('.color');
 
 const hex = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","F",]
 
-//add eventlistner to the button 
 
-// button.addEventListener('click' , vishakha)
-/*function vishakha () {
-    alert('clicked')
-}
-
-button.addEventListener('click', vishakha)*/
 
 button.addEventListener('click',() => {
     // alert(' button cliced')
@@ -29,7 +22,7 @@ const genratehexcolor = () => {
     for (let i = 0; i < 6; i++){
         hexcolor += hex[getRandomNumber()]
     } 
-    // alert(hexcolor)
+
     return hexcolor;
 }
 
